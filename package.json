@@ -17,6 +17,7 @@
     "gatsby-plugin-sharp": "2.0.12",
     "gatsby-plugin-sitemap": "2.0.2",
     "gatsby-plugin-twitter": "2.0.7",
+    "gatsby-plugin-typography": "^2.2.1",
     "gatsby-remark-autolink-headers": "2.0.10",
     "gatsby-remark-copy-linked-files": "2.0.6",
     "gatsby-remark-images": "2.0.6",
@@ -34,6 +35,8 @@
     "react-helmet": "^5.2.0",
     "react-share": "^2.0.0",
     "react-twitter-widgets": "^1.7.1",
+    "react-typography": "^0.16.13",
+    "typography": "^0.16.17",
     "url-join": "^4.0.0"
   },
   "devDependencies": {
