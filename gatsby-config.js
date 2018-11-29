@@ -94,6 +94,12 @@ module.exports = {
         ]
       }
     },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule : `src/utils/typography`,
+      }
+    },
     "gatsby-plugin-offline",
     {
       resolve: "gatsby-plugin-feed",

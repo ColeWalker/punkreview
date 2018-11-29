@@ -22,7 +22,7 @@ class Disqus extends Component {
     toasts.push({ text: "New comment available!" });
     this.setState({ toasts });
   }
-  render() {
+  render() { 
     const { postNode } = this.props;
     if (!config.disqusShortname) {
       return null;
