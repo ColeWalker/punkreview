@@ -11,6 +11,7 @@ import config from "../../data/SiteConfig";
 import "./b16-tomorrow-dark.css";
 import "./post.css";
 
+
 export default class PostTemplate extends React.Component {
   render() {
     const { slug } = this.props.pageContext;

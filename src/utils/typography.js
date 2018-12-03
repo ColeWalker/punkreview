@@ -11,6 +11,14 @@ baseFontSize: "18px",
     "sans-serif",
   ],
   bodyFontFamily: ["Georgia", "serif"],
+  overrideStyles: ({adjustFontSizeTo, rythm}, options, styles) => ({
+      body: {
+          color: 'white',
+      },
+      a:{
+          color :'white'
+      }
+  })
 });
 
 export default typography;

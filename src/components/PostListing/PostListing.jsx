@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-
+import { Panel } from 'react-bootstrap'
 class PostListing extends React.Component {
   getPostList() {
     const postList = [];
@@ -25,7 +25,7 @@ class PostListing extends React.Component {
         postList.map(post => (
           <Link to={post.path} key={post.title}>
             <h2>{post.title}</h2>
-          </Link>
+          </Link> 
         ))}
       </div>
     );
