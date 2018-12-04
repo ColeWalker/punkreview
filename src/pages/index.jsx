@@ -7,6 +7,8 @@ import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 import PostCard from '../components/PostCard';
 import FeaturedCard from '../components/FeaturedCard';
+import CardContainer from '../components/CardContainer';
+
 
 class Index extends React.Component {
   render() {
@@ -15,7 +17,7 @@ class Index extends React.Component {
       <Layout>
         <div className="index-container">
         <FeaturedCard/>
-          <PostCard></PostCard>
+          
           <Helmet title={config.siteTitle} />
           <SEO />
           <PostListing postEdges={postEdges} />

@@ -1,6 +1,11 @@
 import React from "react";
 import { Link } from "gatsby";
 import { Panel } from 'react-bootstrap'
+import PostCard from '../PostCard'
+import CardContainer from '../CardContainer'
+
+
+
 class PostListing extends React.Component {
   getPostList() {
     const postList = [];
@@ -20,14 +25,14 @@ class PostListing extends React.Component {
   render() {
     const postList = this.getPostList();
     return (
-      <div>
+      <CardContainer>
         {/* Your post list here. */
         postList.map(post => (
-          <Link to={post.path} key={post.title}>
-            <h2>{post.title}</h2>
-          </Link> 
+          
+            <PostCard title={post.title} excerpt={post.excerpt}></PostCard>
+      
         ))}
-      </div>
+      </CardContainer>
     );
   }
 }
