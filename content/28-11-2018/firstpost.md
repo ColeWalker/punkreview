@@ -7,6 +7,7 @@ slug: "first-post"
 tags:
     - test
     - small
+featured: true
 ---
 
 This is a test of the first post

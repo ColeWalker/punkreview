@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
-
+import { StaticQuery, graphql} from 'gatsby';
 
 const CardWrapper = styled.div`
     position: relative;
@@ -35,15 +35,46 @@ const CardLeft = styled.div`
 export default class FeaturedCard extends Component {
   render() {
     return (
-      <CardWrapper>
-        <CardLeft> 
-            <h2>Featured Artist:</h2> 
-            <h1>Senses Fail</h1>
+      <StaticQuery query= {IndexQuery} render={data => (
+         
+        <CardWrapper>
+        <CardLeft>
+          <Link to={data.allMarkdownRemark.edges[0].node.fields.slug}  activeStyle={{color:'black',}} >
+            <h2>Featured Artist: </h2> 
+            <h1>{data.allMarkdownRemark.edges[0].node.frontmatter.title}</h1>
+            </Link>
             <hr></hr>
-            <p>Test</p> 
+            <p>{data.allMarkdownRemark.edges[0].node.excerpt}</p> 
         </CardLeft>
-        <CardRight src="https://pbs.twimg.com/profile_images/936265336780763137/NajiOShM_400x400.jpg"/>
+        <CardRight src={data.allMarkdownRemark.edges[0].node.frontmatter.cover}/>
       </CardWrapper>
+      )
+      }/>
+
     )
   }
 }
+
+export const IndexQuery= graphql`{
+  allMarkdownRemark(filter: {frontmatter: { featured: {eq:true}}}
+  sort: { fields: [frontmatter___date], order: DESC }
+  limit: 1
+  )
+
+{
+    edges{
+      node {
+        fields {
+          slug
+          date
+        }
+        excerpt
+        frontmatter {
+          title
+          date
+          cover
+        }
+      }
+    }
+    }
+  }`

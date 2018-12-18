@@ -6,6 +6,7 @@ import CardContainer from '../CardContainer'
 
 
 
+
 class PostListing extends React.Component {
   getPostList() {
     const postList = [];
@@ -29,7 +30,7 @@ class PostListing extends React.Component {
         {/* Your post list here. */
         postList.map(post => (
           
-            <PostCard title={post.title} excerpt={post.excerpt}></PostCard>
+            <PostCard title={post.title} excerpt={post.excerpt} slug={post.path}></PostCard>
       
         ))}
       </CardContainer>

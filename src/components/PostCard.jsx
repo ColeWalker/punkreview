@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
 
+
 const CardWrapper = styled.div`
     width: 335px;
     display: flex;
@@ -26,12 +27,19 @@ const CardBottom = styled.div`
     text-align: center;
     height: 70%;
 `
+const Title = styled.h2`
+    color: black;
+`
 
-export default function PostCard({title, excerpt,path}) {
+
+
+export default function PostCard({title, excerpt, slug}) {
     return (
       <CardWrapper>
         <CardTop >
-            <h1>{title}</h1>
+            <Link to={slug}>
+                <Title>{title}</Title>
+            </Link>
             <hr></hr>
         
         </CardTop>

@@ -10,6 +10,14 @@ import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 import "./b16-tomorrow-dark.css";
 import "./post.css";
+import styled from 'styled-components'
+
+const BodyDiv = styled.div`
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  
+`;
 
 
 export default class PostTemplate extends React.Component {
@@ -30,15 +38,14 @@ export default class PostTemplate extends React.Component {
             <title>{`${post.title} | ${config.siteTitle}`}</title>
           </Helmet>
           <SEO postPath={slug} postNode={postNode} postSEO />
-          <div>
+          <div className="post-body">
             <h1>{post.title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
+            <div className="innerPost" dangerouslySetInnerHTML={{ __html: postNode.html }} />
             <div className="post-meta">
               <PostTags tags={post.tags} />
               <SocialLinks postPath={slug} postNode={postNode} />
             </div>
             <UserInfo config={config} />
-            <Disqus postNode={postNode} />
           </div>
         </div>
       </Layout>
