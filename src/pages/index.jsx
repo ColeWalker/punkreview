@@ -33,14 +33,14 @@ export default Index;
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
+      filter: {frontmatter: { featured: {ne:true}}}
       limit: 2000
-      sort: { fields: [fields___date], order: DESC }
+      sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
         node {
           fields {
             slug
-            date
           }
           excerpt
           timeToRead
@@ -49,6 +49,7 @@ export const pageQuery = graphql`
             tags
             cover
             date
+            excerpt
           }
         }
       }

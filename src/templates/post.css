@@ -1,3 +1,7 @@
+h1{
+    margin-bottom: 5%;
+}
+
 .post-meta {
     display: flex;
     flex-direction: column;
@@ -16,4 +20,11 @@
     margin: 0 auto;
     width: 36em;
     line-height: 2;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+iframe{
+    width: 100%;
 }

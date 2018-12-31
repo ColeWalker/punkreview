@@ -1,67 +1,36 @@
 ---
-title: "Bold Mage"
+title: "3 of my favorite covers"
 cover: "https://unsplash.it/400/300/?random?BoldMage"
-date: "01/01/2017"
-category: "tech"
+date: "12/31/2018"
+category: "suggestions"
+slug: "3favecovers"
 tags:
-    - programming
-    - stuff
-    - other
+    - Love Song
+    - Four Year Strong
+    - suggestion
+    - kiss me
+    - new found glory
+    - i knew you were trouble
+    - we came as romans
+    - taylor swift
+featured: false
+excerpt: "3 fantastic covers of songs which were originally way lamer than these versions"
 ---
-# Quanto et ius coniunctis urbes
+<h2>Love Song by Four Year Strong</h2>
+<p>
+I'm almost certain that there will be a Four Year Strong song on every single list that I write for this blog. This cover is excellent- the original song was incredibly fit for a harder makeover, and Four Year Strong executed it flawlessly. The guitar is gorgeous, the singing is full of emotion, and I love it to death. 
+</p>
+<iframe src="https://open.spotify.com/embed/track/22xmNDIOQecFRsXB5prggA" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-## Sedisti civiliter
+<h2>Kiss Me by New Found Glory</h2>
+<p>
+I'm sorry, but this song is undeniably adorable. The lyrics are just plain cute, and without New Found Glory playing it, it's way too sweet for me to be able to listen to it. Thankfully, New Found Glory turned up the rad factor, and made the song cool to listen to again. Thanks New Found Glory!
 
-Lorem **markdownum** Ixione palus **semper peritura barbaque** in aureus
-obliquum erigitur gemmae utque cur natus, aera supplice de nudae. Manus
-ambrosiam tendens, saecula tenet, conponere et ense et cucurri. Tantique
-animalia praeceps Meleagre greges venisse corpore et ignara, umquam ipse? Quam
-*Talibus ausis*.
+</p>
+<iframe src="https://open.spotify.com/embed/track/1WTbOb9bzd2Ym3xh0ZPzZ4" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-## Vultusque subsequitur Pallas regis datis inde animaque
-
-At securim cautum capitis, creatos sanguinis turbant iam concita videor, edere.
-Alis genas rudis felix quas **longum** suorum manu ante prima **usque**. Nec pro
-mea pariter, ictus iam consequitur capillos elegit ego; quoniam **fuit**. Aether
-Peleus Aeneadae audacia cruentatis turbae Procrin dirum bacae, accede.
-
-```php
-    urlLinkedin.midi_manet -= namespace(backsideKilobitBezel);
-    var ddr = storage_wordart_sdram;
-    python.raw_backlink = rfid_load - 4;
-    kibibyte *= cdnThumbnailUri;
-```
-
-## Fortis dextrae humo limina Tempus singultibus illa
-
-Nate muros orbe [patris](http://debebuntilla.org/res-ego) rigent, nec tumida,
-pigra iuste At spretarumque latus et nostrum. Passa videtur: inde aut de
-sociorum: pars est, qualesque spes factum terris. Custodia sum animumque; iubet
-in pulvere carus, relinquunt incitat. Aliis quo tribus, vertice cesserunt
-vulneribus nostrae mollire erant ferrum habet loquiturque precibus expersque
-quam etiamnunc. Puraque [repetitque](http://mihi-aiax.io/suaferunt.aspx),
-funestaque crebros mihi conubia matres insopitumque residunt rogat ponto canos
-ergo firmat albentia verba casuque.
-
-```perl
-    if (lion_vdu + vrml_upnp - redundancyAccessPharming) {
-        driveProcessor = floatingWord(commerceDockRestore(database));
-    } else {
-        partition_source_thunderbolt = -2 + tokenStateArchive /
-                teraflops_gigahertz;
-    }
-    exabytePhpMacintosh -= graphic_cycle(expression, memory(ideFatMatrix,
-            controlInboxMode), 50) + -3;
-    buffer_apple_hdmi += viralSync + internetDigital / tweak_perl_expansion(
-            masterNullFloating + vdu, software_play);
-```
-
-## Nati expugnacior nympha milia nascuntur amico
-
-Multis timidus hic si auctor hausit. Suos taedasque, malis est nitente sceleri
-sunt florem.
-
-Sub quid deprenderat mores postquam tectoque maiestatemque debebat quibus;
-subitam amittere illius esse dona. Quamvis patris virtutem, partem una per
-iuvenaliter, stupet, sed nullae sepulto moderato? Nec phaedimus aequoris dixit.
-Hic bis parenti: e petunt satis.
+<h2>I Knew You Were Trouble by We Came As Romans</h2>
+<p>
+Let's just be honest with ourselves here, it's really hard to dislike Taylor Swift's music. The original version of this song is good to begin with, but We Came As Romans added that heavy guitar that I love, with some nasty vocals too. This is a song which constantly gets stuck in my head, and it has that "wow this is a hard version of a T Swift song" factor which makes me laugh most times that I listen. Fantastic. 
+</p>
+<iframe src="https://open.spotify.com/embed/track/0CsP3X8vw67bm2ieIc73a4" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
