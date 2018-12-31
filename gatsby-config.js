@@ -99,6 +99,7 @@ module.exports = {
       }
     },
     "gatsby-plugin-offline",
+    "gatsby-plugin-favicon",
     {
       resolve: "gatsby-plugin-feed",
       options: {
@@ -144,7 +145,6 @@ module.exports = {
             {
               allMarkdownRemark(
                 limit: 1000,
-                sort: { order: DESC, fields: [fields___date] },
               ) {
                 edges {
                   node {
@@ -153,7 +153,6 @@ module.exports = {
                     timeToRead
                     fields {
                       slug
-                      date
                     }
                     frontmatter {
                       title
