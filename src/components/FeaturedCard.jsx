@@ -36,7 +36,7 @@ const CardLeft = styled.div`
 export default class FeaturedCard extends Component {
   render() {
     return (
-      <StaticQuery query= {IndexQuery} render={data => (
+      <StaticQuery query= {query} render={data => (
          
         <CardWrapper>
         <CardLeft>
@@ -56,26 +56,27 @@ export default class FeaturedCard extends Component {
   }
 }
 
-export const IndexQuery= graphql`{
-  allMarkdownRemark(filter: {frontmatter: { featured: {eq:true}}}
-  sort: { fields: [frontmatter___date], order: DESC }
-  limit: 1
-  )
-
-{
-    edges{
-      node {
-        fields {
-          slug
-        }
-        excerpt
-        frontmatter {
-          title
-          date
-          cover
+const query = graphql`
+  query {
+    allMarkdownRemark(
+      filter: { frontmatter: { featured: { eq: true } } }
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 1
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
           excerpt
+          frontmatter {
+            title
+            date
+            cover
+            excerpt
+          }
         }
       }
     }
-    }
-  }`
+  }
+`;
